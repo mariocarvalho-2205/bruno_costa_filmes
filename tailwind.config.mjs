@@ -11,7 +11,24 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      textShadow: {
+        'default': '2px 2px 4px rgba(0,0,0,0.5)',
+        'lg': '4px 4px 8px rgba(0,0,0,0.5)',
+        'xl': '6px 6px 12px rgba(0,0,0,0.5)',
+        'red': '2px 2px 4px rgba(255,0,0,0.5)',
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          'text-shadow': (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme('textShadow') }
+      )
+    },
+  ],
 };
