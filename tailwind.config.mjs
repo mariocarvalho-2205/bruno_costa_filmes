@@ -16,7 +16,10 @@ export default {
         'lg': '4px 4px 8px rgba(0,0,0,0.5)',
         'xl': '6px 6px 12px rgba(0,0,0,0.5)',
         'red': '2px 2px 4px rgba(255,0,0,0.5)',
-      }
+      },
+      fontFamily: {
+        figtree: ["Figtree", "sans-serif"],
+      },
     },
   },
   plugins: [

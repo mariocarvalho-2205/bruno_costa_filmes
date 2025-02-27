@@ -21,21 +21,21 @@ export default function VideoSection() {
 
   const videos = [
     {
-      url: 'https://www.youtube.com/embed/mEEaHUkTgUg?autoplay=0&mute=0&controls=1&origin=http%3A%2F%2Flocalhost%3A3000&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=3',
-      title: 'Casamento Maria e João',
-      description: 'Um dia mágico cheio de amor e emoção',
+      url: 'https://youtube.com/embed/q-pvZvPq2UM?si=qVt2wl-TjAZtiAC5',
+      title: 'Ford Bronco - Sinceras Opniões!',
+      description: 'Vou falar um pouco sobre essa maquina!',
       thumbnail: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJvbml0b3xlbnwwfHwwfHx8MA%3D%3D' // Adicione thumbnails locais
     },
     {
-      url: 'https://www.youtube.com/embed/mEEaHUkTgUg?autoplay=0&mute=0&controls=1&origin=http%3A%2F%2Flocalhost%3A3000&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=3',
-      title: 'Formatura Turma 2024',
-      description: 'Momentos inesquecíveis de conquista',
+      url: 'https://youtube.com/embed/XjCXodR4fVU?si=7a4ajsjA2FRFpjKj',
+      title: 'BYD - MANDARIM',
+      description: 'Lançamento da BYD MANDARIM!',
       thumbnail: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJvbml0b3xlbnwwfHwwfHx8MA%3D%3D'
     },
     {
-      url: 'https://www.youtube.com/embed/mEEaHUkTgUg?autoplay=0&mute=0&controls=1&origin=http%3A%2F%2Flocalhost%3A3000&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=3',
-      title: 'Evento Corporativo Tech Summit',
-      description: 'Cobertura completa do maior evento de tecnologia',
+      url: 'https://youtube.com/embed/eivaubYbk_c?si=osWkmduw5L-vP47w',
+      title: 'Conheça um pouco do nosso Portifolio!',
+      description: 'Especializado em produção audio visual!',
       thumbnail: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJvbml0b3xlbnwwfHwwfHx8MA%3D%3D'
     }
   ];

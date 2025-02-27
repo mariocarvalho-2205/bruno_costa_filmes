@@ -36,7 +36,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white z-10"
             >
-                <h1 className="text-5xl md:text-7xl font-bold mb-4 text-[#BF1501] text-shadow-[2px_2px_4px_rgba(255,255,255,0.5)] ">Capturando Momentos</h1>
+                <h1 className="text-5xl md:text-7xl font-bold mb-4 md:leading-tight leading-normal text-[#BF1501] text-shadow-[2px_2px_4px_rgba(255,255,255,0.5)] ">Capturando Momentos</h1>
                 <p className="text-xl md:text-2xl text-[#BF1501] text-shadow-[2px_2px_4px_rgba(255,255,255,0.5)]">Transformando memórias em arte</p>
             </motion.div>
         </section>

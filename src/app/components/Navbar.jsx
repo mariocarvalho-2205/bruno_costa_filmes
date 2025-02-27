@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,8 +16,12 @@ export default function Navbar() {
           className="text-2xl font-bold text-[#BF1501]"
         >
           <div className='flex flex-row items-center gap-2'>
-            <p className='text-white font-light uppercase '><span className='font-bold'>Bruno</span> Costa</p>
-            <p className='uppercase'>Filmes</p>
+            <Image
+              src="/logo_bruno_2.png"
+              alt="Bruno Costa Filmes"
+              width={140}
+              height={100}
+            />
 
           </div>
         </motion.div>
@@ -24,9 +29,9 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-6">
           <a href="#home" className="hover:text-[#BF1501] transition-colors">Home</a>
           <a href="#sobre" className="hover:text-[#BF1501] transition-colors">Sobre</a>
-          <a href="#portfolio" className="hover:text-[#BF1501] transition-colors">Portfólio</a>
           <a href="#servicos" className="hover:text-[#BF1501] transition-colors">Serviços</a>
           <a href="#videos" className="hover:text-[#BF1501] transition-colors">Videos</a>
+          <a href="#portfolio" className="hover:text-[#BF1501] transition-colors">Portfólio</a>
           <a href="#contato" className="hover:text-[#BF1501] transition-colors">Contato</a>
         </div>
 
@@ -46,9 +51,9 @@ export default function Navbar() {
             <div className="flex flex-col space-y-4 px-6">
               <a href="#home" className="hover:text-[#BF1501] transition-colors">Home</a>
               <a href="#sobre" className="hover:text-[#BF1501] transition-colors">Sobre</a>
-              <a href="#portfolio" className="hover:text-[#BF1501] transition-colors">Portfólio</a>
               <a href="#servicos" className="hover:text-[#BF1501] transition-colors">Serviços</a>
               <a href="#videos" className="hover:text-[#BF1501] transition-colors">Videos</a>
+              <a href="#portfolio" className="hover:text-[#BF1501] transition-colors">Portfólio</a>
               <a href="#contato" className="hover:text-[#BF1501] transition-colors">Contato</a>
             </div>
           </motion.div>
