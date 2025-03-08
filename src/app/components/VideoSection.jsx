@@ -24,19 +24,19 @@ export default function VideoSection() {
       url: 'https://youtube.com/embed/q-pvZvPq2UM?si=qVt2wl-TjAZtiAC5',
       title: 'Ford Bronco - Sinceras Opniões!',
       description: 'Vou falar um pouco sobre essa maquina!',
-      thumbnail: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJvbml0b3xlbnwwfHwwfHx8MA%3D%3D' // Adicione thumbnails locais
+      thumbnail: 'https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm90b3N8ZW58MHx8MHx8fDA%3D' // Adicione thumbnails locais
     },
     {
       url: 'https://youtube.com/embed/XjCXodR4fVU?si=7a4ajsjA2FRFpjKj',
       title: 'BYD - MANDARIM',
       description: 'Lançamento da BYD MANDARIM!',
-      thumbnail: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJvbml0b3xlbnwwfHwwfHx8MA%3D%3D'
+      thumbnail: 'https://images.unsplash.com/photo-1479064118661-04dd16543243?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZvdG9zfGVufDB8fDB8fHww'
     },
     {
       url: 'https://youtube.com/embed/eivaubYbk_c?si=osWkmduw5L-vP47w',
       title: 'Conheça um pouco do nosso Portifolio!',
       description: 'Especializado em produção audio visual!',
-      thumbnail: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJvbml0b3xlbnwwfHwwfHx8MA%3D%3D'
+      thumbnail: 'https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm90b3N8ZW58MHx8MHx8fDA%3D'
     }
   ];
 

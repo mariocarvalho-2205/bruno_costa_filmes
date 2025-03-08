@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Image from 'next/image';
+import Link from 'next/link'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,23 +17,25 @@ export default function Navbar() {
           className="text-2xl font-bold text-[#BF1501]"
         >
           <div className='flex flex-row items-center gap-2'>
-            <Image
-              src="/logo_bruno_2.png"
-              alt="Bruno Costa Filmes"
-              width={140}
-              height={100}
-            />
+            <Link href="/">
+              <Image
+                src="/logo_bruno_2.png"
+                alt="Bruno Costa Filmes"
+                width={140}
+                height={100}
+              />
+            </Link>
 
           </div>
         </motion.div>
 
         <div className="hidden md:flex space-x-6">
-          <a href="#home" className="hover:text-[#BF1501] transition-colors">Home</a>
-          <a href="#sobre" className="hover:text-[#BF1501] transition-colors">Sobre</a>
-          <a href="#servicos" className="hover:text-[#BF1501] transition-colors">Serviços</a>
-          <a href="#videos" className="hover:text-[#BF1501] transition-colors">Videos</a>
-          <a href="#portfolio" className="hover:text-[#BF1501] transition-colors">Portfólio</a>
-          <a href="#contato" className="hover:text-[#BF1501] transition-colors">Contato</a>
+          <Link href="#home" className="hover:text-[#BF1501] transition-colors">Home</Link>
+          <Link href="#sobre" className="hover:text-[#BF1501] transition-colors">Sobre</Link>
+          <Link href="#servicos" className="hover:text-[#BF1501] transition-colors">Serviços</Link>
+          <Link href="#videos" className="hover:text-[#BF1501] transition-colors">Videos</Link>
+          <Link href="#portfolio" className="hover:text-[#BF1501] transition-colors">Portfólio</Link>
+          <Link href="#contato" className="hover:text-[#BF1501] transition-colors">Contato</Link>
         </div>
 
         <button

@@ -2,7 +2,7 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "Bruno Costa Filmes",
+	title: "Bruno Costa Filmes",
 	description: `Bem-vindo à Saborear Doceria Salvador, onde transformamos
 					sonhos em realidade com bolos e doces únicos que encantam todos os sentidos.
 					Somos especialistas em confeitaria criativa, inclusive bolos com efeitos especiais.
@@ -18,7 +18,7 @@ export const metadata = {
 	},
 	metadataBase: new URL("https://saboreardoceria.vercel.app"),
 	icons: {
-		icon: "/favicon.png",
+		icon: "/favicon.ico",
 	},
 	keywords: `bolos confeitados, bolos de casamento, bolos de aniversário, bolos de formatura, confeitaria artesanal, doceria, bolos personalizados, bolos em Salvador, bolos deliciosos, bolo artesanal`,
 	openGraph: {
@@ -55,11 +55,16 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="pt-BR">
-      <body>
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="pt-BR">
+			<head>
+				<link rel="icon" href="/favicon.ico" sizes="any" />
+				<link rel="icon" type="image/png" href="/favicon.png" />
+			</head>
+
+			<body>
+				{children}
+			</body>
+		</html>
+	);
 }
